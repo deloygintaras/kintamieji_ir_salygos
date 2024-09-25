@@ -116,3 +116,36 @@ import random
 # print(f" 1 yra:{vienetu}")
 # print(f" 2 yra:{dvejetu}")
 
+# 6. Naudokite funkcija random.randint(x,x).
+# Sukurkite ir atspausdinkite 3 skaičius nuo -10 iki 10. Skaičiai mažesni už 0 turi būti  laužtiniuose skliaustuose
+# [], 0 -  (), didesni už 0 {}.   [-4],  (0)
+
+# a = random.randint(-10, 10)
+# b = random.randint(-10, 10)
+# c = random.randint(-10, 10)
+# print(f"a = {a} \nb = {b} \nc = {c}")
+# if a < 0:
+#     print(f"a skaicius = [{a}]")
+# elif a == 0:
+#     print(f"a skaicius = ({a})")
+# elif a > 0:
+#     print(f"a skaicius = {{{a}}}")
+# if b < 0:
+#     print(f"b skaicius = [{b}]")
+# elif b == 0:
+#     print(f"b skaicius = ({b})")
+# elif b > 0:
+#     print(f"b skaicius = {{{b}}}")
+# if c < 0:
+#     print(f"c skaicius = [{c}]")
+# elif c == 0:
+#     print(f"c skaicius = ({c})")
+# elif c > 0:
+#     print(f"c skaicius = {{{c}}}")
+
+# Įmonė parduoda žvakes po 1 EUR. Perkant daugiau kaip 1000 vienetų taikoma 3 % nuolaida, daugiau kaip 2000 vienetų- 4 % nuolaida.
+# Parašykite programą, kuri skaičiuos žvakių kainą ir atspausdintų atsakymą kiek žvakių ir kokia kaina perkama.
+# Žvakių kiekį generuokite random.randint(x,x) funkcija nuo 5 iki 3000.
+
+a = random.randint(5, 3000)
+print(f"zvakiu kiekis = {a}")
