@@ -187,6 +187,10 @@ import random
 # Valandom, minutėm ir sekundėm sugeneruoti panaudokite funkciją random.randint(x,x).
 # Sugeneruokite skaičių nuo 0 iki 300. Tai papildomos sekundės. Skaičių pridėkite prie jau sugeneruoto laiko.
 # Atspausdinkite laikrodį prieš ir po sekundžių pridėjimo ir pridedamų sekundžių skaičių.
+h = random.randint(0, 300)
+minutes = random.randint(0, 300)
+sec = random.randint(0, 300)
+print(f"valandos = {h} \nminutes = {minutes} \nsekundes = {sec}")
 
 
 
